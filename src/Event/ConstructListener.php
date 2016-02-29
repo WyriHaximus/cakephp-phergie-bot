@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WyriHaximus\CakePHP\Phergie\Event;
+namespace WyriHaximus\PhergieBot\Event;
 
 use Cake\Core\Configure;
 use Cake\Event\EventListenerInterface;
