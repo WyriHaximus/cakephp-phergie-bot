@@ -1,0 +1,45 @@
+{
+    "name": "wyrihaximus/cake-phergie-bot",
+    "type":"cakephp-plugin",
+    "license": "MIT",
+    "keywords": [
+        "cakephp",
+        "phergie",
+        "irc"
+    ],
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com",
+            "homepage": "http://wyrihaximus.net/"
+        }
+    ],
+    "require": {
+        "php": "^5.5||^7.0",
+        "cakephp/cakephp": "^3.2",
+        "phergie/phergie-irc-bot-react": "^2",
+        "phergie/phergie-irc-client-react": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0||^5.0",
+        "phake/phake": "^2.2.1",
+        "vectorface/dunit": "~2.0",
+        "squizlabs/php_codesniffer": "^1.5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WyriHaximus\\PhergieBot\\": "src/"
+        },
+        "files": ["src/functions_include.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WyriHaximus\\Tests\\PhergieBot\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.5.9"
+        }
+    }
+}

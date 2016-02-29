@@ -1,6 +1,6 @@
 <?php
 
-namespace WyriHaximus\CakePHP\Phergie;
+namespace WyriHaximus\PhergieBot;
 
 use Cake\Core\Configure;
 use React\EventLoop\Factory;
@@ -13,14 +13,14 @@ use PipingBag\Di\PipingBag;
 function loopResolver()
 {
     if (
-        Configure::check('WyriHaximus.Phergie.loop') &&
-        Configure::read('WyriHaximus.Phergie.loop') instanceof LoopInterface
+        Configure::check('WyriHaximus.PhergieBot.loop') &&
+        Configure::read('WyriHaximus.PhergieBot.loop') instanceof LoopInterface
     ) {
-        return Configure::read('WyriHaximus.Phergie.loop');
+        return Configure::read('WyriHaximus.PhergieBot.loop');
     }
 
-    if (class_exists('PipingBag\Di\PipingBag') && Configure::check('WyriHaximus.Phergie.pipingbag.loop')) {
-        return PipingBag::get(Configure::read('WyriHaximus.Phergie.pipingbag.loop'));
+    if (class_exists('PipingBag\Di\PipingBag') && Configure::check('WyriHaximus.PhergieBot.pipingbag.loop')) {
+        return PipingBag::get(Configure::read('WyriHaximus.PhergieBot.pipingbag.loop'));
     }
 
     return Factory::create();
