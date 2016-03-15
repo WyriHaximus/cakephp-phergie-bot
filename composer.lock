@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23dd3dad0bd1397c79d337a1f9443613",
-    "content-hash": "305307747168c96cdcc7928dd28c7207",
+    "hash": "dfc84561323e41fcb64f74cb1c01319f",
+    "content-hash": "a5e2ea907679a5107c614a3773aaae5b",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -128,16 +128,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "3.2.3",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "2c715472e57651b14538ace21b8f0de384a579cc"
+                "reference": "d6aa46749e14df117b1cf4edfe21952483f44e4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/2c715472e57651b14538ace21b8f0de384a579cc",
-                "reference": "2c715472e57651b14538ace21b8f0de384a579cc",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/d6aa46749e14df117b1cf4edfe21952483f44e4d",
+                "reference": "d6aa46749e14df117b1cf4edfe21952483f44e4d",
                 "shasum": ""
             },
             "require": {
@@ -196,20 +196,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-02-21 19:44:26"
+            "time": "2016-03-14 03:16:42"
         },
         {
             "name": "cakephp/chronos",
-            "version": "0.4.7",
+            "version": "0.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "8f90c9b8cc813be21fb07ac487dc90ddbdf2fb0b"
+                "reference": "aef0ba4ffcd1d962dc66b4d51b0d111db089cfcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/8f90c9b8cc813be21fb07ac487dc90ddbdf2fb0b",
-                "reference": "8f90c9b8cc813be21fb07ac487dc90ddbdf2fb0b",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/aef0ba4ffcd1d962dc66b4d51b0d111db089cfcf",
+                "reference": "aef0ba4ffcd1d962dc66b4d51b0d111db089cfcf",
                 "shasum": ""
             },
             "require": {
@@ -251,7 +251,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2016-02-14 20:36:45"
+            "time": "2016-03-10 01:50:25"
         },
         {
             "name": "evenement/evenement",
@@ -301,16 +301,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
                 "shasum": ""
             },
             "require": {
@@ -339,6 +339,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -348,7 +349,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -374,26 +375,26 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "phergie/phergie-irc-bot-react",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-bot-react.git",
-                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4"
+                "reference": "11ecece5954668bb55bd0fb96b4b8cedbd64e43c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-bot-react/zipball/d8587c51144dffe45dc925d87740a7f1e0ea23d4",
-                "reference": "d8587c51144dffe45dc925d87740a7f1e0ea23d4",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-bot-react/zipball/11ecece5954668bb55bd0fb96b4b8cedbd64e43c",
+                "reference": "11ecece5954668bb55bd0fb96b4b8cedbd64e43c",
                 "shasum": ""
             },
             "require": {
                 "evenement/evenement": "~2.0",
                 "monolog/monolog": "~1.6",
-                "phergie/phergie-irc-client-react": "~3",
+                "phergie/phergie-irc-client-react": "~3.1",
                 "phergie/phergie-irc-connection": "~2.0",
                 "phergie/phergie-irc-event": "~1.0",
                 "php": ">=5.5"
@@ -420,7 +421,7 @@
                 "irc",
                 "react"
             ],
-            "time": "2015-12-21 21:17:58"
+            "time": "2016-03-07 18:44:52"
         },
         {
             "name": "phergie/phergie-irc-client-react",
@@ -590,16 +591,16 @@
         },
         {
             "name": "phergie/phergie-irc-parser",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-parser.git",
-                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce"
+                "reference": "2bf9e629d91276cb654e2ed270ea05030372032c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-parser/zipball/cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
-                "reference": "cec7ec29ea9bbad5f3d1c0e0271279b3d58fe6ce",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-parser/zipball/2bf9e629d91276cb654e2ed270ea05030372032c",
+                "reference": "2bf9e629d91276cb654e2ed270ea05030372032c",
                 "shasum": ""
             },
             "require": {
@@ -623,7 +624,7 @@
                 "irc",
                 "parser"
             ],
-            "time": "2015-11-12 15:21:51"
+            "time": "2016-03-07 14:49:25"
         },
         {
             "name": "psr/log",
@@ -741,16 +742,16 @@
         },
         {
             "name": "react/event-loop",
-            "version": "v0.4.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/event-loop.git",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b"
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/18c5297087ca01de85518e2b55078f444144aa1b",
-                "reference": "18c5297087ca01de85518e2b55078f444144aa1b",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/164799f73175e1c80bba92a220ea35df6ca371dd",
+                "reference": "164799f73175e1c80bba92a220ea35df6ca371dd",
                 "shasum": ""
             },
             "require": {
@@ -764,12 +765,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4-dev"
+                    "dev-master": "0.5-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "React\\EventLoop\\": ""
+                    "React\\EventLoop\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -778,9 +779,10 @@
             ],
             "description": "Event loop abstraction layer that libraries can use for evented I/O.",
             "keywords": [
+                "asynchronous",
                 "event-loop"
             ],
-            "time": "2014-02-26 17:36:58"
+            "time": "2016-03-08 02:09:32"
         },
         {
             "name": "react/promise",
@@ -828,23 +830,23 @@
         },
         {
             "name": "react/socket",
-            "version": "v0.4.2",
+            "version": "v0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/reactphp/socket.git",
-                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc"
+                "reference": "ce015ec5879b96f5d30905f035f223aa85013fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reactphp/socket/zipball/a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
-                "reference": "a6acf405ca53fc6cfbfe7c77778ededff46aa7cc",
+                "url": "https://api.github.com/repos/reactphp/socket/zipball/ce015ec5879b96f5d30905f035f223aa85013fcc",
+                "reference": "ce015ec5879b96f5d30905f035f223aa85013fcc",
                 "shasum": ""
             },
             "require": {
-                "evenement/evenement": "~2.0",
-                "php": ">=5.4.0",
-                "react/event-loop": "0.4.*",
-                "react/stream": "0.4.*"
+                "evenement/evenement": "~2.0|~1.0",
+                "php": ">=5.3.0",
+                "react/event-loop": "0.4.*|0.3.*",
+                "react/stream": "0.4.*|0.3.*"
             },
             "type": "library",
             "extra": {
@@ -865,7 +867,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2014-05-25 17:02:16"
+            "time": "2016-03-01 20:10:35"
         },
         {
             "name": "react/socket-client",
@@ -1424,16 +1426,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.23",
+            "version": "4.8.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6e351261f9cd33daf205a131a1ba61c6d33bd483"
+                "reference": "a1066c562c52900a142a0e2bbf0582994671385e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6e351261f9cd33daf205a131a1ba61c6d33bd483",
-                "reference": "6e351261f9cd33daf205a131a1ba61c6d33bd483",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a1066c562c52900a142a0e2bbf0582994671385e",
+                "reference": "a1066c562c52900a142a0e2bbf0582994671385e",
                 "shasum": ""
             },
             "require": {
@@ -1492,7 +1494,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-02-11 14:56:33"
+            "time": "2016-03-14 06:16:08"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1998,16 +2000,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.2",
+            "version": "v3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "3cf0709d7fe936e97bee9e954382e449003f1d9a"
+                "reference": "b5ba64cd67ecd6887f63868fa781ca094bd1377c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/3cf0709d7fe936e97bee9e954382e449003f1d9a",
-                "reference": "3cf0709d7fe936e97bee9e954382e449003f1d9a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/b5ba64cd67ecd6887f63868fa781ca094bd1377c",
+                "reference": "b5ba64cd67ecd6887f63868fa781ca094bd1377c",
                 "shasum": ""
             },
             "require": {
@@ -2043,7 +2045,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-02-02 13:44:19"
+            "time": "2016-02-23 15:16:06"
         },
         {
             "name": "vectorface/dunit",
