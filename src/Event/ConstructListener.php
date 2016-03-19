@@ -25,7 +25,7 @@ class ConstructListener implements EventListenerInterface
     public function implementedEvents()
     {
         return [
-        ConstructEvent::EVENT => 'construct',
+            ConstructEvent::EVENT => 'construct',
         ];
     }
 
