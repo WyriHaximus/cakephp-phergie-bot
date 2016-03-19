@@ -12,25 +12,25 @@
 namespace WyriHaximus\PhergieBot\Event;
 
 use Cake\Event\Event;
+use Phergie\Irc\Bot\React\Bot;
 use React\EventLoop\LoopInterface;
-use WyriHaximus\PhuninNode\Node;
 
 class StartEvent extends Event
 {
-    const EVENT = 'WyriHaximus.PhuninCake.Node.start';
+    const EVENT = 'WyriHaximus.PhergieBot.start';
 
-    public static function create(LoopInterface $loop, Node $node)
+    public static function create(LoopInterface $loop, Bot $bot)
     {
-        return new static(static::EVENT, $node, [
+        return new static(static::EVENT, $bot, [
             'loop' => $loop,
-            'node' => $node,
+            'bot' => $bot,
         ]);
     }
 
     /**
      * @return Node
      */
-    public function getNode()
+    public function getBot()
     {
         return $this->subject();
     }
