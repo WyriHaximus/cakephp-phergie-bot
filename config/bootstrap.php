@@ -10,6 +10,6 @@
  */
 
 use Cake\Event\EventManager;
-use WyriHaximus\PhuninCake\Event\BotListener;
+use WyriHaximus\PhergieBot\Event\ConstructListener;
 
-EventManager::instance()->on(new BotListener());
+EventManager::instance()->on(new ConstructListener());
