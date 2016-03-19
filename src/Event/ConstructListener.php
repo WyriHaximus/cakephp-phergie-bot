@@ -15,6 +15,7 @@ use Cake\Core\Configure;
 use Cake\Event\EventListenerInterface;
 use Cake\Event\EventManager;
 use Phergie\Irc\Bot\React\Bot;
+use Phergie\Irc\Client\React\Client;
 
 class ConstructListener implements EventListenerInterface
 {
@@ -24,7 +25,7 @@ class ConstructListener implements EventListenerInterface
     public function implementedEvents()
     {
         return [
-            ConstructEvent::EVENT => 'construct',
+        ConstructEvent::EVENT => 'construct',
         ];
     }
 
@@ -33,9 +34,12 @@ class ConstructListener implements EventListenerInterface
      */
     public function construct(ConstructEvent $event)
     {
-        $bot = new Bot;
+        $client = new Client();
+        $client->setLoop($event->getLoop());
+        $bot = new Bot();
         $bot->setConfig(Configure::read('WyriHaximus.Phergie.config'));
-        $bot->run();
+        $bot->setClient($client);
+        $bot->run(false);
         EventManager::instance()->dispatch(StartEvent::create($event->getLoop(), $bot));
     }
 }
